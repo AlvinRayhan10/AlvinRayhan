@@ -1,0 +1,87 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* MINIMAL CSS SAJA - FONT & ANIMASI */
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  line-height: 1.7;
+}
+.gradient-text {
+  background: linear-gradient(45deg, #6366f1, #8b5cf6, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.typing-text {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .typing-text {
+    font-size: 2.5rem;
+  }
+}
+.skill-progress {
+  transition: width 2s ease-in-out !important;
+  background: linear-gradient(45deg, #6366f1, #8b5cf6) !important;
+}
+.portfolio-overlay {
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+.portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+}
+.service-card {
+  transition: transform 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+/* MINIMAL CSS SAJA */
+* {
+  font-family: "Poppins", sans-serif;
+}
+.gradient-text {
+  background: linear-gradient(45deg, #6366f1, #8b5cf6, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.typing-text {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .typing-text {
+    font-size: 2.5rem;
+  }
+}
+.skill-progress {
+  transition: width 2s ease-in-out !important;
+  background: linear-gradient(45deg, #6366f1, #8b5cf6) !important;
+}
+.counter {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.card-hover {
+  transition: all 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+}
